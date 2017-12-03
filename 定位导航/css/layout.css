@@ -1,0 +1,50 @@
+#content {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+#content h1 {
+    color: #1874CD;
+}
+#content .item {
+    border: 1px solid #aaa;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 8px #aaa;
+}
+#content .item h3{
+    border-bottom: 3px solid #6CA6CD;
+    margin-bottom: 10px;
+}
+#content .item li {
+    display: inline;
+    margin: 5px;
+}
+.item ul li img {
+    width: 240px;
+    height: auto;
+}
+#menu {
+    position: fixed;
+    top: 150px;
+    left: 50%;
+    margin-left: 400px;
+    width: 80px;
+}
+#menu ul li a {
+    display: block;
+    color: #333;
+    width: 80px;
+    height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+}
+#menu ul li a:hover,
+#menu ul li a.current {
+    background-color: #6CA6CD;
+    color: #fff;
+    border-radius: 5px;
+}
